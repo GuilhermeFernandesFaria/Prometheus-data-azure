@@ -1,0 +1,7 @@
+
+akspriv-pricing-prd-admin falhou
+akspriv-adanalytics-prd-admin falhou
+akspriv-figital-prd-admin falhou
+akspriv-kongapigw-prd-admin falhou
+akspriv-trocafacil-prd-admin falhou
+akspriv-vmaischeckout-prd-admin falhou
