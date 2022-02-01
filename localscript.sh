@@ -1,8 +1,8 @@
 #!/bin/bash
 
-kubectx akspriv-kong-hlg-admin
+kubectx #cluster-name
 
-for cluster in $(kubectl config get-contexts --no-headers | awk '{print $1}' | egrep -i "prd-admin"| grep -v "\*" | egrep -iv "pricing-prd")
+for cluster in $(kubectl config get-contexts --no-headers | awk '{print $1}' | egrep -i "prd-admin"| grep -v "\*" | egrep -iv \"cluster-prefix\")
 do
 
     echo $cluster
